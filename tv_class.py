@@ -4,16 +4,20 @@
 # tv1's channel is 30 and volume level is 3
 # tv2's channel is 3 and volume level is 2
 
-
 class TV:
     def __init__(self):
     # Initialize TV attributes
+        self.channel = 1
+        self.volume_level = 1
+        self.on = False
 
     def turn_on(self):
     # Turn the TV on
+    self.on = True
 
     def turn_off(self):
     # Turn the TV off
+    self.on = False
 
     def set_channel(self, channel):
     # Set the TV channel if the TV is on and the channel is valid
