@@ -30,10 +30,14 @@ class TV:
             self.volume_level = volume_level
 
     def channel_up(self):
-    # Increment the TV channel if the TV is on and the channel is below 120
+        # Increment the TV channel if the TV is on and the channel is below 120
+        if self.on and self.channel < 120:
+            self.channel += 1
 
     def channel_down(self):
-    # Decrement the TV channel if the TV is on and the channel is above 1
+        # Decrement the TV channel if the TV is on and the channel is above 1
+        if self.on and self.channel > 1:
+            self.channel -= 1
     
     def volume_up(self):
     # Increment the TV volume if the TV is on and the volume level is below 7
