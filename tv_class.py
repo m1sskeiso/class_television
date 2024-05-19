@@ -12,15 +12,17 @@ class TV:
         self.on = False
 
     def turn_on(self):
-    # Turn the TV on
-    self.on = True
+        # Turn the TV on
+        self.on = True
 
     def turn_off(self):
-    # Turn the TV off
-    self.on = False
+        # Turn the TV off
+        self.on = False
 
     def set_channel(self, channel):
-    # Set the TV channel if the TV is on and the channel is valid
+        # Set the TV channel if the TV is on and the channel is valid
+        if self.on and 1 <= channel <= 120:
+            self.channel = channel
 
     def set_volume(self, volume_level):
     # Set the TV volume if the TV is on and the volume level is valid
