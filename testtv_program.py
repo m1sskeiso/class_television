@@ -10,7 +10,7 @@ def main():
     # Set TV1 channel to 30
     tv1.set_channel(30)
     # Set TV1 volume level to 3
-    tv1.set_channel(3)
+    tv1.set_volume(3)
 
     # Turn on TV2
     tv2.turn_on()
