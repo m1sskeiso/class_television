@@ -19,10 +19,13 @@ def main():
     # Set TV2 volume level to 2
     tv2.set_volume(2)
 
-# Kakain muna sir gutom na me
+    # Print the channel and volume of TV1
+    print(f"tv1's channel is {tv1.channel} and volume level is {tv1.volume_level}")
 
-# Print the channel and volume of TV1
-# Print the channel and volume of TV2
+    # Print the channel and volume of TV2
+    print(f"tv2's channel is {tv2.channel} and volume level is {tv2.volume_level}")
 
-
+# Call the main function if the script is executed directly.
+if __name__ == "__main__":
+    main()
 
