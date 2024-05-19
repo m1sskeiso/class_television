@@ -19,6 +19,8 @@ def main():
     # Set TV2 volume level to 2
     tv2.set_volume(2)
 
+# Kakain muna sir gutom na me
+
 # Print the channel and volume of TV1
 # Print the channel and volume of TV2
 
